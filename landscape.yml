@@ -282,7 +282,7 @@ landscape:
             homepage_url: https://github.com/tencent/dcache
             project: foundationproject
             repo_url: https://github.com/tencent/dcache
-            logo: https://github.com/TarsCloud/ArtWork/blob/master/projects/DCache/DCache-Color.svg
+            logo: DCache-Color.svg
             crunchbase: https://www.crunchbase.com/organization/tars-foundation
           - item:
             name: memcached
@@ -660,7 +660,7 @@ landscape:
             homepage_url: https://github.com/tencent/tseer
             project: foundationproject
             repo_url: https://github.com/tencent/tseer
-            logo: https://github.com/TarsCloud/ArtWork/blob/master/projects/TSeer/TSeer-Color.svg
+            logo: Tseer-color.svg
             crunchbase: https://www.crunchbase.com/organization/tars-foundation
       - subcategory:
         name: Service Mesh
@@ -878,7 +878,7 @@ landscape:
             name: Falcon
             homepage_url: https://open-falcon.com
             repo_url: https://github.com/open-falcon/falcon-plus
-            logo: https://raw.githubusercontent.com/open-falcon/falcon-plus/master/logos/open-falcon-logo-with-title.svg
+            logo: falcon.svg
             twitter: null
             crunchbase: https://www.crunchbase.com/organization/xiaomi
           - item:
