@@ -1,0 +1,23 @@
+{
+  "name": "nextarch-landscape",
+  "version": "1.0.0",
+  "description": "Interactive visualization of NextArch Foundation",
+  "engines": {
+    "npm": ">=3",
+    "node": ">= 10.5"
+  },
+  "scripts": {
+    "build": "npm run latest; npm config set scripts-prepend-node-path true; export PROJECT_PATH=\"$PWD\"; npm explore nextarch-landscape -- npm run build",
+    "latest": "npm install nextarch-landscape@latest"
+  },
+  "author": "NextArch",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "interactive-landscape": "1.0.629"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nextarch/nextarch-landscape"
+  }
+}

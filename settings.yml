@@ -1,0 +1,206 @@
+global:
+  name: NextArch Foundation Landscape
+  short_name: NextArch
+  repo: nextarch/nextarch_landscape
+  website: https://landscape.nextarch.io
+  short_domain: l.nextarch.io
+  company_url: https://nextarch.io
+  email: operations@nextarch.io
+  self: https://www.crunchbase.com/organization/nextarch-foundation
+  slack_channel: null
+  meta:
+    title: NextArch Foundation Landscape
+    fb_admin: alex.contini.94
+    description: Filter and sort by GitHub stars, funding, commits, contributors, hq location, and tweets
+    twitter: '@nextarch'
+    google_site_verification: null
+    ms_validate: null
+  membership: NextArch Foundation Collaborator
+  flags:
+    companies: NextArch Foundation Collaborator
+    hide_license_for_categories:
+      - NextArch Foundation Collaborator
+twitter:
+  search: landscape.nextarch.io
+  url: https://landscape.nextarch.io
+  text: NextArch Foundation Landscape
+relation:
+  label: NextArch Relation
+  url: nextarch
+  values:
+    - id: hosted
+      label: NextArch Foundation Projects
+      children:
+        - id: foundationproject
+          label: NextArch Foundation Projects
+          prefix: NextArch
+          tag: Foundation Project
+          color: '#3570af'
+          big_picture_order: 1
+          big_picture_label: LF NextArch
+          big_picture_color: rgb(24,54,114)
+    - id: company
+      label: NextArch Foundation Collaborator
+      tag: Company
+      big_picture_order: 3
+    - id: member
+      label: NextArch Foundation Collaborator Products/Projects
+      tag: NextArch Foundation Collaborator
+    - id: false
+      label: Non-NextArch Foundation Collaborator Products/Projects
+      url: 'no'
+membership:
+  Collaborator:
+    name: NextArch
+    label: Collaborator
+    funding: 'No'
+    is_large: false
+  linux_foundation:
+    name: LF
+    label: Project
+    funding: Linux Foundation
+    crunchbase_and_children: https://www.crunchbase.com/organization/linux-foundation
+  'false':
+    funding: 'No'
+home:
+  header: >
+    <h1>NextArch Foundation Landscape</h1> The NextArch Foundation landscape (<a target="_blank" href="images/landscape.png">png</a>, <a target="_blank"
+    href="images/landscape.pdf">pdf</a>) is dynamically generated below. It is modeled after the <a href="http://landscape.cncf.io">CNCF landscape</a> and based
+    on the same open source code.
+  footer: |
+    Crunchbase data is used under license from Crunchbase to CNCF.
+ads: []
+presets:
+  - url: /format=card-mode&grouping=no&license=open-source&sort=first-commit
+    label: Open source cards by age
+  - url: /license=apache-license-2-0
+    label: Apache-2.0 landscape
+  - url: /format=card-mode&grouping=category
+    label: Cards in categories
+  - url: /format=card-mode&grouping=no&sort=stars
+    label: Cards by stars
+  - url: /format=card-mode&grouping=headquarters
+    label: Group by location
+  - url: /format=card-mode&grouping=no&sort=amount
+    label: Cards by MCap/Funding
+big_picture:
+  main:
+    tab_index: -1
+    url: landscape
+    name: Landscape
+    title: NextArch Foundation Landscape
+    fullscreen_header: See the interactive landscape at l.nextarch.io
+    elements:
+      - type: HorizontalCategory
+        category: DevOps
+        rows: 2
+        width: 314
+        height: 148
+        top: 0
+        left: 993
+        color: rgb(4,81,49)
+        fit_width: true
+      - type: HorizontalCategory
+        category: Application
+        rows: 4
+        width: 966
+        height: 148
+        top: 0
+        left: 0
+        color: rgb(7,136,62)
+        fit_width: true
+      - type: HorizontalCategory
+        category: Platform
+        rows: 4
+        width: 1785
+        height: 148
+        top: 190
+        left: 0
+        color: rgb(126,115,14)
+        fit_width: true
+      - type: HorizontalCategory
+        category: Protocol
+        rows: 1
+        width: 383
+        height: 148
+        top: 380
+        left: 1405
+        color: rgb(87,43,10)
+        fit_width: true
+      - type: HorizontalCategory
+        category: Storage
+        rows: 4
+        width: 1367
+        height: 148
+        top: 380
+        left: 0
+        color: rgb(165,9,77)
+        fit_width: true
+      - type: HorizontalCategory
+        category: Infrastructure
+        rows: 2
+        width: 820
+        height: 148
+        top: 570
+        left: 0
+        color: rgb(29,119,164)
+        fit_width: true
+      - type: HorizontalCategory
+        category: Programming Language
+        rows: 3
+        width: 517
+        height: 148
+        top: 570
+        left: 860
+        color: rgb(193,83,21)
+        fit_width: true
+      - type: HorizontalCategory
+        category: NextArch Foundation Collaborator
+        rows: 3
+        width: 463
+        height: 148
+        top: 0
+        left: 1330
+        color: rgb(103,66,18)
+        fit_width: true
+      - type: LandscapeInfo
+        width: 393
+        height: 148
+        top: 570
+        left: 1410
+        children:
+          - type: text
+            text: |
+              This landscape is intended as a map to explore the NextArch community, and also shows the collaborator organizations of the NextArch Foundation.
+            top: 53
+            left: 140
+            right: 36
+            font_size: 10
+          - type: image
+            image: qr.svg
+            top: 15
+            left: 25
+            width: 91
+            height: 91
+            title: QR Code
+          - type: title
+            title: l.nextarch.io
+            top: 104
+            left: 27
+            font_size: 14
+          - type: image
+            image: left-logo.svg
+            width: 85
+            right: 145
+            top: 20
+            title: Landscape Logo
+          - type: image
+            image: right-logo.svg
+            width: 60
+            right: 40
+            top: 20
+            title: NextArch Foundation Logo
+test:
+  header: NextArch Foundation Landscape
+  section: NextArch Foundation Collaborator
+  logo: tencent.svg
