@@ -2688,7 +2688,7 @@ landscape:
             name: Ruby
             homepage_url: https://www.ruby-lang.org/en/
             repo_url: https://github.com/ruby/ruby
-            logo: https://upload.wikimedia.org/wikipedia/commons/5/57/Devicon-ruby-plain-wordmark.svg
+            logo: Devicon-ruby-plain-wordmark.svg
             crunchbase: https://www.crunchbase.com/organization/ruby
             crunchbase_data:
               name: Ruby
@@ -2785,6 +2785,9 @@ landscape:
             github_start_commit_data:
               start_commit_link: /ruby/ruby/commit/392296c12de9d7f9be03a8205250ba0844cb9d38
               start_date: '1998-01-16T12:13:05Z'
+            image_data:
+              fileName: ruby.svg
+              hash: WzGk9TdJFtcvX7trIc00cckN7WAeAFnBUA1ZX+Cz8d4=
             best_practice_data:
               badge: false
               percentage: null
@@ -2906,7 +2909,11 @@ landscape:
             homepage_url: https://www.scala-lang.org/
             repo_url: https://github.com/scala/scala
             logo: scala.svg
-            crunchbase: https://www.crunchbase.com/organization/scala
+            organization:
+              name: scala
+            crunchbase_data:
+              name: scala
+              parents: []
             github_data:
               languages:
                 - name: Scala
@@ -5616,7 +5623,7 @@ landscape:
             homepage_url: https://github.com/tencent/dcache
             project: foundationproject
             repo_url: https://github.com/tencent/dcache
-            logo: https://github.com/TarsCloud/ArtWork/blob/master/projects/DCache/DCache-Color.svg
+            logo: DCache-Color.svg
             crunchbase: https://www.crunchbase.com/organization/tars-foundation
             crunchbase_data:
               name: TARS Foundation
@@ -5667,6 +5674,9 @@ landscape:
             github_start_commit_data:
               start_commit_link: /Tencent/DCache/commit/489c5a631867f94524d56bc6f1d31ffd6721203d
               start_date: '2019-03-26T08:01:45Z'
+            image_data:
+              fileName: d-cache.svg
+              hash: IiNbnlh1ICgWrCdfKo4DRYGC4Wbq88mIcokd0c+KkN0=
             best_practice_data:
               badge: false
               percentage: null
@@ -12115,7 +12125,7 @@ landscape:
             homepage_url: https://github.com/tencent/tseer
             project: foundationproject
             repo_url: https://github.com/tencent/tseer
-            logo: https://github.com/TarsCloud/ArtWork/blob/master/projects/TSeer/TSeer-Color.svg
+            logo: Tseer-color.svg
             crunchbase: https://www.crunchbase.com/organization/tars-foundation
             crunchbase_data:
               name: TARS Foundation
@@ -12180,6 +12190,9 @@ landscape:
             github_start_commit_data:
               start_commit_link: /Tencent/TSeer/commit/94c6630bf9c702e30277859825669388bd9fa340
               start_date: '2018-03-16T11:40:34Z'
+            image_data:
+              fileName: t-seer.svg
+              hash: 4+KAZV2BYj79zDv90FqUOEfVXEHfVMAIPkCrlwfLPfo=
             best_practice_data:
               badge: false
               percentage: null
@@ -14966,7 +14979,7 @@ landscape:
             name: Falcon
             homepage_url: https://open-falcon.com
             repo_url: https://github.com/open-falcon/falcon-plus
-            logo: https://raw.githubusercontent.com/open-falcon/falcon-plus/master/logos/open-falcon-logo-with-title.svg
+            logo: falcon.svg
             twitter: null
             crunchbase: https://www.crunchbase.com/organization/xiaomi
             crunchbase_data:
@@ -15042,6 +15055,9 @@ landscape:
             yahoo_finance_data:
               market_cap: 52525271541
               effective_ticker: 1810.HK
+            image_data:
+              fileName: falcon.svg
+              hash: iq8JdwNmpXuhJepUXrNQnruJGJ+PrTWPO37N/qHqtoo=
             best_practice_data:
               badge: false
               percentage: null
@@ -23190,7 +23206,11 @@ landscape:
             name: Swoole (collaborator)
             homepage_url: https://www.swoole.com/
             logo: swoole.svg
-            crunchbase: https://www.crunchbase.com/organization/swoole
+            organization:
+              name: swoole
+            crunchbase_data:
+              name: swoole
+              parents: []
             image_data:
               fileName: swoole-collaborator.svg
               hash: MgEDcUtz1i6wbr+8bYdNgBwfPtV/RxCGKSy+3FrxhcM=
