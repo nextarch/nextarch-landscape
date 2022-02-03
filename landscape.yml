@@ -143,7 +143,7 @@ landscape:
             name: Ruby
             homepage_url: https://www.ruby-lang.org/en/
             repo_url: https://github.com/ruby/ruby
-            logo: https://upload.wikimedia.org/wikipedia/commons/5/57/Devicon-ruby-plain-wordmark.svg
+            logo: Devicon-ruby-plain-wordmark.svg
             crunchbase: https://www.crunchbase.com/organization/ruby
           - item:
             name: Rust
@@ -156,7 +156,8 @@ landscape:
             homepage_url: https://www.scala-lang.org/
             repo_url: https://github.com/scala/scala
             logo: scala.svg
-            crunchbase: https://www.crunchbase.com/organization/scala
+            organization:
+              name: scala
           - item:
             name: Swift
             homepage_url: https://developer.apple.com/swift/
@@ -1555,7 +1556,8 @@ landscape:
             name: Swoole (collaborator)
             homepage_url: https://www.swoole.com/
             logo: swoole.svg
-            crunchbase: https://www.crunchbase.com/organization/swoole
+            organization:
+              name: swoole
           - item:
             name: Unicom Digital Tech (collaborator)
             homepage_url: https://www.chinaunicom.com/
@@ -1566,4 +1568,3 @@ landscape:
             homepage_url: https://www.vmware.com/
             logo: vmware.svg
             crunchbase: https://www.crunchbase.com/organization/vmware
-
