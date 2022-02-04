@@ -7,14 +7,11 @@ global:
   company_url: https://nextarch.io
   email: operations@nextarch.io
   self: https://www.crunchbase.com/organization/nextarch-foundation
-  slack_channel: null
   meta:
     title: NextArch Foundation Landscape
     fb_admin: alex.contini.94
     description: Filter and sort by GitHub stars, funding, commits, contributors, hq location, and tweets
     twitter: '@nextarch'
-    google_site_verification: null
-    ms_validate: null
   membership: NextArch Foundation Collaborator
   flags:
     companies: NextArch Foundation Collaborator
@@ -54,7 +51,7 @@ membership:
     name: NextArch
     label: Collaborator
     funding: 'No'
-    is_large: false
+    is_large: null
   linux_foundation:
     name: LF
     label: Project
@@ -203,4 +200,6 @@ big_picture:
 test:
   header: NextArch Foundation Landscape
   section: NextArch Foundation Collaborator
-  logo: tencent.svg
+  logo: tencent-cloud.svg
+prerender: {}
+export: {}
