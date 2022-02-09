@@ -26,11 +26,11 @@ This landscape is intended as a map to focus on the evolution, application and c
 
 ## Current Version
 
-![img](https://landscape.nextarch.io/images/landscape.png)
+![img](https://confident-northcutt-ae5112.netlify.app/images/landscape.png)
 
 ## Interactive Version
 
-Please see [landscape.nextarch.io](https://landscape.nextarch.io)
+Please see [landscape.nextarch.io](https://confident-northcutt-ae5112.netlify.app/)
 
 ## New Entries
 
@@ -110,8 +110,8 @@ Everything else is under the Apache License, Version 2.0, except for project and
 
 The NextArch Landscape is available in these formats:
 
-* [PNG]()
-* [PDF]()
+* [PNG](https://confident-northcutt-ae5112.netlify.app/images/landscape.png)
+* [PDF](https://confident-northcutt-ae5112.netlify.app/images/landscape.pdf)
 
 ## Installation
 
