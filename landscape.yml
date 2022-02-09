@@ -77,10 +77,10 @@ landscape:
             logo: travis-ci.svg
             crunchbase: https://www.crunchbase.com/organization/travis-ci
   - category:
-    name: Programming Language
+    name: Development
     subcategories:
       - subcategory:
-        name: Programming Language
+        name: Cloud Dev
         items:
           - item:
             name: Bash
@@ -246,7 +246,6 @@ landscape:
           - item:
             name: K8STARS
             homepage_url: https://github.com/TarsCloud/K8STARS
-            project: foundationproject
             repo_url: https://github.com/TarsCloud/K8STARS
             logo: tars-docker.svg
             crunchbase: https://www.crunchbase.com/organization/tars-foundation
@@ -267,12 +266,62 @@ landscape:
           - item:
             name: TarsDocker
             homepage_url: https://github.com/TarsCloud/TarsDocker
-            project: foundationproject
             repo_url: https://github.com/TarsCloud/TarsDocker
             logo: tars-docker.svg
             crunchbase: https://www.crunchbase.com/organization/tars-foundation
+      - subcategory:
+        name: Edge
+        items:
+          - item:
+            name: Akraino
+            homepage_url: https://www.lfedge.org/projects/akraino/
+            repo_url: https://github.com/akraino-edge-stack/eliot
+            logo: akraino.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-edge
+          - item:
+            name: Baetyl
+            homepage_url: https://www.lfedge.org/projects/baetyl/
+            repo_url: https://github.com/baetyl/baetyl
+            logo: baetyl.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-edge
+          - item:
+            name: EdgeX Foundry
+            homepage_url: https://www.lfedge.org/projects/edgexfoundry/
+            repo_url: https://github.com/edgexfoundry/edgex-go
+            logo: edgexfoundry.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-edge
+          - item:
+            name: EVE
+            homepage_url: https://www.lfedge.org/projects/eve/
+            repo_url: https://github.com/lf-edge/eve
+            logo: eve.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-edge
+          - item:
+            name: Fledge
+            homepage_url: https://www.lfedge.org/projects/fledge/
+            repo_url: https://github.com/fledge-iot/fledge
+            logo: fledge.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-edge
+          - item:
+            name: HomeEdge
+            homepage_url: https://www.lfedge.org/projects/homeedge/
+            repo_url: https://github.com/lf-edge/edge-home-orchestration-go
+            logo: homeedge.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-edge
+          - item:
+            name: Open Horizon
+            homepage_url: https://www.lfedge.org/projects/openhorizon/
+            repo_url: https://github.com/open-horizon/anax
+            logo: openhorizon.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-edge
+          - item:
+            name: State of the Edge
+            homepage_url: https://www.lfedge.org/projects/stateoftheedge/
+            repo_url: https://github.com/State-of-the-Edge/glossary
+            logo: stateoftheedge.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-edge
   - category:
-    name: Storage
+    name: Data
     subcategories:
       - subcategory:
         name: Cache
@@ -280,7 +329,6 @@ landscape:
           - item:
             name: DCache
             homepage_url: https://github.com/tencent/dcache
-            project: foundationproject
             repo_url: https://github.com/tencent/dcache
             logo: DCache-Color.svg
             crunchbase: https://www.crunchbase.com/organization/tars-foundation
@@ -578,32 +626,6 @@ landscape:
             twitter: https://twitter.com/Ceph
             crunchbase: https://www.crunchbase.com/organization/ceph-foundation
   - category:
-    name: Protocol
-    subcategories:
-      - subcategory:
-        name: Protocol
-        items:
-          - item:
-            name: Protocol Buffers
-            homepage_url: https://developers.google.com/protocol-buffers
-            repo_url: https://github.com/protocolbuffers/protobuf
-            logo: protocol-buffers.svg
-            crunchbase: https://www.crunchbase.com/organization/google
-          - item:
-            name: TarsProtocol
-            homepage_url: https://github.com/TarsCloud/TarsProtocol
-            project: foundationproject
-            repo_url: https://github.com/TarsCloud/TarsProtocol
-            logo: tars-protocol.svg
-            crunchbase: https://www.crunchbase.com/organization/tars-foundation
-          - item:
-            name: TarsTup
-            homepage_url: https://github.com/TarsCloud/TarsTup
-            project: foundationproject
-            repo_url: https://github.com/TarsCloud/TarsTup
-            logo: tars-tup.svg
-            crunchbase: https://www.crunchbase.com/organization/tars-foundation
-  - category:
     name: Platform
     subcategories:
       - subcategory:
@@ -619,7 +641,6 @@ landscape:
           - item:
             name: TarsFramework
             homepage_url: https://tarscloud.org
-            project: foundationproject
             repo_url: https://github.com/TarsCloud/TarsFramework
             logo: tars-framework.svg
             twitter: https://twitter.com/tarscloud
@@ -658,7 +679,6 @@ landscape:
           - item:
             name: TSeer
             homepage_url: https://github.com/tencent/tseer
-            project: foundationproject
             repo_url: https://github.com/tencent/tseer
             logo: Tseer-color.svg
             crunchbase: https://www.crunchbase.com/organization/tars-foundation
@@ -1280,9 +1300,6 @@ landscape:
             logo: zipkin.svg
             twitter: https://twitter.com/zipkinproject
             crunchbase: https://www.crunchbase.com/organization/zipkin
-  - category:
-    name: Application
-    subcategories:
       - subcategory:
         name: API Gateway
         items:
@@ -1357,7 +1374,6 @@ landscape:
           - item:
             name: TarsGateway
             homepage_url: https://github.com/TarsCloud/TarsGateway
-            project: foundationproject
             repo_url: https://github.com/TarsCloud/TarsGateway
             logo: tars-gateway.svg
             crunchbase: https://www.crunchbase.com/organization/tars-foundation
@@ -1373,8 +1389,11 @@ landscape:
             repo_url: https://github.com/wso2/product-microgateway
             logo: wso2.svg
             crunchbase: https://www.crunchbase.com/organization/wso2
+  - category:
+    name: Industry
+    subcategories:
       - subcategory:
-        name: Business
+        name: Retail
         items:
           - item:
             name: AfterShip
@@ -1382,7 +1401,7 @@ landscape:
             logo: aftership.svg
             crunchbase: https://www.crunchbase.com/organization/aftership
       - subcategory:
-        name: Deep Learning
+        name: AI
         items:
           - item:
             name: Caffe
@@ -1409,84 +1428,29 @@ landscape:
             logo: tensorflow.svg
             crunchbase: https://www.crunchbase.com/organization/tensorflow
       - subcategory:
-        name: Edge
-        items:
-          - item:
-            name: Akraino
-            homepage_url: https://www.lfedge.org/projects/akraino/
-            repo_url: https://github.com/akraino-edge-stack/eliot
-            logo: akraino.svg
-            crunchbase: https://www.crunchbase.com/organization/lf-edge
-          - item:
-            name: Baetyl
-            homepage_url: https://www.lfedge.org/projects/baetyl/
-            repo_url: https://github.com/baetyl/baetyl
-            logo: baetyl.svg
-            crunchbase: https://www.crunchbase.com/organization/lf-edge
-          - item:
-            name: EdgeX Foundry
-            homepage_url: https://www.lfedge.org/projects/edgexfoundry/
-            repo_url: https://github.com/edgexfoundry/edgex-go
-            logo: edgexfoundry.svg
-            crunchbase: https://www.crunchbase.com/organization/lf-edge
-          - item:
-            name: EVE
-            homepage_url: https://www.lfedge.org/projects/eve/
-            repo_url: https://github.com/lf-edge/eve
-            logo: eve.svg
-            crunchbase: https://www.crunchbase.com/organization/lf-edge
-          - item:
-            name: Fledge
-            homepage_url: https://www.lfedge.org/projects/fledge/
-            repo_url: https://github.com/fledge-iot/fledge
-            logo: fledge.svg
-            crunchbase: https://www.crunchbase.com/organization/lf-edge
-          - item:
-            name: HomeEdge
-            homepage_url: https://www.lfedge.org/projects/homeedge/
-            repo_url: https://github.com/lf-edge/edge-home-orchestration-go
-            logo: homeedge.svg
-            crunchbase: https://www.crunchbase.com/organization/lf-edge
-          - item:
-            name: Open Horizon
-            homepage_url: https://www.lfedge.org/projects/openhorizon/
-            repo_url: https://github.com/open-horizon/anax
-            logo: openhorizon.svg
-            crunchbase: https://www.crunchbase.com/organization/lf-edge
-          - item:
-            name: State of the Edge
-            homepage_url: https://www.lfedge.org/projects/stateoftheedge/
-            repo_url: https://github.com/State-of-the-Edge/glossary
-            logo: stateoftheedge.svg
-            crunchbase: https://www.crunchbase.com/organization/lf-edge
-      - subcategory:
-        name: TARS LAB
+        name: Others
         items:
           - item:
             name: TarsBenchmark
             homepage_url: https://github.com/TarsCloud/TarsBenchmark
-            project: foundationproject
             repo_url: https://github.com/TarsCloud/TarsBenchmark
             logo: tars-benchmark.svg
             crunchbase: https://www.crunchbase.com/organization/tars-foundation
           - item:
             name: TarsJavaStart
             homepage_url: https://github.com/TarsCloud/TarsJavaStart
-            project: foundationproject
             repo_url: https://github.com/TarsCloud/TarsJavaStart
             logo: tars-javastart.svg
             crunchbase: https://www.crunchbase.com/organization/tars-foundation
           - item:
             name: TarsJMeter
             homepage_url: https://github.com/TarsCloud/TarsJMeter
-            project: foundationproject
             repo_url: https://github.com/TarsCloud/TarsJMeter
             logo: tars-jmeter.svg
             crunchbase: https://www.crunchbase.com/organization/tars-foundation
           - item:
             name: TarsTools
             homepage_url: https://github.com/TarsCloud/TarsTools
-            project: foundationproject
             repo_url: https://github.com/TarsCloud/TarsTools
             logo: tars-jmeter.svg
             crunchbase: https://www.crunchbase.com/organization/tars-foundation
@@ -1568,3 +1532,50 @@ landscape:
             homepage_url: https://www.vmware.com/
             logo: vmware.svg
             crunchbase: https://www.crunchbase.com/organization/vmware
+          - item:
+            name: Qihoo 360
+            homepage_url: https://www.360.cn/
+            logo: 360logo.svg
+            crunchbase: https://www.crunchbase.com/organization/qihoo-360-technology
+          - item:
+            name: Allegro Networks
+            homepage_url: https://yomo.run
+            logo: allegro-networks-xile-logo.svg
+            organization:
+              name: Allegro Networks
+          - item:
+            name: Baidu
+            homepage_url: https://www.baidu.com
+            logo: baidu.svg
+            crunchbase: https://www.crunchbase.com/organization/baidu
+          - item:
+            name: Data Pipeline
+            homepage_url: https://www.datapipeline.com/
+            logo: datapipeline.svg
+            crunchbase: https://www.crunchbase.com/organization/data-pipeline
+          - item:
+            name: DiDi
+            homepage_url: https://www.didiglobal.com
+            logo: didi.svg
+            crunchbase: https://www.crunchbase.com/organization/didi-dache
+          - item:
+            name: GrowingIO
+            homepage_url: https://www.growingio.com
+            logo: growingio.svg
+            crunchbase: https://www.crunchbase.com/organization/growingio-2
+          - item:
+            name: Huayou Technology
+            homepage_url: https://www.huayou-tech.com/
+            logo: huayou-technology.svg
+            organization:
+              name: Huayou Technology
+          - item:
+            name: SphereEx
+            homepage_url: https://www.sphere-ex.com
+            logo: sphereex.svg
+            crunchbase: https://www.crunchbase.com/organization/sphereex
+          - item:
+            name: Stream Native
+            homepage_url: https://streamnative.io/
+            logo: streamnative.svg
+            crunchbase: https://www.crunchbase.com/organization/streamnative

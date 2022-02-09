@@ -89,18 +89,9 @@ big_picture:
     fullscreen_header: See the interactive landscape at l.nextarch.io
     elements:
       - type: HorizontalCategory
-        category: DevOps
-        rows: 2
-        width: 314
-        height: 148
-        top: 0
-        left: 993
-        color: rgb(4,81,49)
-        fit_width: true
-      - type: HorizontalCategory
-        category: Application
+        category: Industry
         rows: 4
-        width: 966
+        width: 1340
         height: 148
         top: 0
         left: 0
@@ -109,25 +100,25 @@ big_picture:
       - type: HorizontalCategory
         category: Platform
         rows: 4
-        width: 1785
+        width: 1340
         height: 148
         top: 190
         left: 0
         color: rgb(126,115,14)
         fit_width: true
       - type: HorizontalCategory
-        category: Protocol
+        category: DevOps
         rows: 1
-        width: 383
+        width: 300
         height: 148
         top: 380
-        left: 1405
+        left: 1040
         color: rgb(87,43,10)
         fit_width: true
       - type: HorizontalCategory
-        category: Storage
+        category: Data
         rows: 4
-        width: 1367
+        width: 1000
         height: 148
         top: 380
         left: 0
@@ -136,64 +127,64 @@ big_picture:
       - type: HorizontalCategory
         category: Infrastructure
         rows: 2
-        width: 820
+        width: 1000
         height: 148
         top: 570
         left: 0
         color: rgb(29,119,164)
         fit_width: true
       - type: HorizontalCategory
-        category: Programming Language
+        category: Development
         rows: 3
-        width: 517
+        width: 300
         height: 148
         top: 570
-        left: 860
+        left: 1040
         color: rgb(193,83,21)
         fit_width: true
       - type: HorizontalCategory
         category: NextArch Foundation Collaborator
-        rows: 3
-        width: 463
-        height: 148
+        rows: 5
+        width: 350
+        height: 490
         top: 0
-        left: 1330
+        left: 1380
         color: rgb(103,66,18)
         fit_width: true
       - type: LandscapeInfo
-        width: 393
-        height: 148
-        top: 570
-        left: 1410
+        width: 350
+        height: 220
+        top: 500
+        left: 1380
         children:
           - type: text
             text: |
               This landscape is intended as a map to explore the NextArch community, and also shows the collaborator organizations of the NextArch Foundation.
-            top: 53
+            top: 70
             left: 140
             right: 36
-            font_size: 10
+            font_size: 11
           - type: image
             image: qr.svg
-            top: 15
+            top: 70
             left: 25
             width: 91
             height: 91
             title: QR Code
           - type: title
             title: l.nextarch.io
-            top: 104
+            top: 161
             left: 27
             font_size: 14
           - type: image
             image: left-logo.svg
             width: 85
-            right: 145
             top: 20
             title: Landscape Logo
+            left: 25
           - type: image
             image: right-logo.svg
-            width: 60
+            width: 85
             right: 40
             top: 20
             title: NextArch Foundation Logo

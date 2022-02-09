@@ -1,4 +1,3 @@
-# THIS FILE IS GENERATED AUTOMATICALLY!
 landscape:
   - category:
     name: DevOps
@@ -22954,7 +22953,7 @@ landscape:
                 - Software
             image_data:
               fileName: api7-collaborator.svg
-              hash: kpZTBcJyA1rA63xDJFbhvY0EsrYRiAnCViWflCC2XP8=
+              hash: Em30VZ9HFb2Qgtl1jD9yqWeFQ2lPoNlFHuTit0I9P94=
             best_practice_data:
               badge: false
               percentage: null
@@ -23406,3 +23405,57 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2022-02-03T07:10:02.000Z
+          - item:
+            name: Qihoo 360
+            homepage_url: https://www.360.cn/
+            logo: 360logo.svg
+            crunchbase: https://www.crunchbase.com/organization/qihoo-360-technology
+            crunchbase_data:
+              name: Qihoo 360 Technology
+              description: Qihoo 360 Technology offers internet and mobile security products, online advertising and internet value-added services in China.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: https://www.360totalsecurity.com
+              city: Beijing
+              region: Beijing
+              country: China
+              twitter: https://twitter.com/360TotalSec
+              linkedin: https://www.linkedin.com/company/qihoo-360
+              acquisitions:
+                - date: '2014-05-14'
+                  acquiree: Shanghai MediaV Advertising
+                - date: '2014-08-01'
+                  acquiree: Huajiao
+                  price: 8092476
+              parents: []
+              ticker: 601360.SS
+              funding: 645000000
+              stockExchange: sse
+              company_type: For Profit
+              industries:
+                - Internet
+                - Mobile
+                - Security
+                - Software
+              kind: market_cap
+            yahoo_finance_data:
+              market_cap: 12063040342
+              effective_ticker: 601360.SS
+            image_data:
+              fileName: qihoo-360.svg
+              hash: C9zWeT4dQQmAxh3+qbdaXeHfdsGcNXmlYeUk1GA92V0=
+            best_practice_data:
+              badge: false
+              percentage: null
+            twitter_data:
+              latest_tweet_date: 2022-01-04T11:57:19.000Z
+          - item:
+            name: Allegro Networks
+            homepage_url: https://yomo.run
+            logo: allegro-networks-xile-logo.svg
+            image_data:
+              fileName: allegro-networks.svg
+              hash: KKXBy3pcREJRZHuszXzprYz0JmPZsWskiUleyns+giI=
+            best_practice_data:
+              badge: false
+              percentage: null
