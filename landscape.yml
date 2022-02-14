@@ -77,105 +77,10 @@ landscape:
             logo: travis-ci.svg
             crunchbase: https://www.crunchbase.com/organization/travis-ci
   - category:
-    name: Development
-    subcategories:
-      - subcategory:
-        name: Cloud Dev
-        items:
-          - item:
-            name: Bash
-            homepage_url: https://www.gnu.org/software/bash/bash.html
-            repo_url: https://github.com/gitGNU/gnu_bash
-            logo: bash.svg
-            crunchbase: https://www.crunchbase.com/organization/gnu
-          - item:
-            name: C
-            homepage_url: https://en.wikipedia.org/wiki/C_(programming_language)
-            logo: c.svg
-            crunchbase: https://www.crunchbase.com/organization/international-organization-for-standardization
-          - item:
-            name: C# (C sharp)
-            homepage_url: https://docs.microsoft.com/en-us/dotnet/csharp/
-            repo_url: https://github.com/dotnet/csharplang
-            logo: c-sharp.svg
-            crunchbase: https://www.crunchbase.com/organization/microsoft
-          - item:
-            name: C++ (C plus plus)
-            homepage_url: https://www.cplusplus.com/
-            logo: cplusplus.svg
-            crunchbase: https://www.crunchbase.com/organization/international-organization-for-standardization
-          - item:
-            name: Go
-            homepage_url: https://go.dev
-            repo_url: https://github.com/golang/go
-            logo: go.svg
-            crunchbase: https://www.crunchbase.com/organization/google
-          - item:
-            name: Java
-            homepage_url: https://java.com/en
-            logo: java.svg
-            crunchbase: https://www.crunchbase.com/organization/java
-          - item:
-            name: Kotlin
-            homepage_url: https://kotlinlang.org/
-            repo_url: https://github.com/JetBrains/kotlin
-            logo: kotlin.svg
-            crunchbase: https://www.crunchbase.com/organization/kotlin
-          - item:
-            name: node.js
-            homepage_url: https://nodejs.org/zh-cn/
-            repo_url: https://github.com/nodejs/node
-            logo: nodejs.svg
-            crunchbase: https://www.crunchbase.com/organization/nodejs-agency
-          - item:
-            name: PHP
-            homepage_url: https://www.php.net/
-            repo_url: https://github.com/php/php-src
-            logo: php.svg
-            crunchbase: https://www.crunchbase.com/organization/php
-          - item:
-            name: Python
-            homepage_url: https://www.python.org/
-            repo_url: https://github.com/python/cpython
-            logo: python.svg
-            crunchbase: https://www.crunchbase.com/organization/python-software-foundation
-          - item:
-            name: Ruby
-            homepage_url: https://www.ruby-lang.org/en/
-            repo_url: https://github.com/ruby/ruby
-            logo: Devicon-ruby-plain-wordmark.svg
-            crunchbase: https://www.crunchbase.com/organization/ruby
-          - item:
-            name: Rust
-            homepage_url: https://www.rust-lang.org/
-            repo_url: https://github.com/rust-lang/rust
-            logo: rust.svg
-            crunchbase: https://www.crunchbase.com/organization/mozilla
-          - item:
-            name: Scala
-            homepage_url: https://www.scala-lang.org/
-            repo_url: https://github.com/scala/scala
-            logo: scala.svg
-            organization:
-              name: scala
-          - item:
-            name: Swift
-            homepage_url: https://developer.apple.com/swift/
-            repo_url: https://github.com/apple/swift
-            logo: swift.svg
-            twitter: https://twitter.com/swiftlybrief
-            crunchbase: https://www.crunchbase.com/organization/apple
-          - item:
-            name: TypeScript
-            homepage_url: https://www.typescriptlang.org/
-            repo_url: https://github.com/microsoft/TypeScript
-            logo: typescript.svg
-            crunchbase: https://www.crunchbase.com/organization/microsoft
-  - category:
     name: Infrastructure
     subcategories:
       - subcategory:
-        name: Chip
+        name: Open Hardware
         items:
           - item:
             name: AMD
@@ -221,7 +126,7 @@ landscape:
             logo: tencent-cloud.svg
             crunchbase: https://www.crunchbase.com/organization/tencent
       - subcategory:
-        name: Container
+        name: Containers & Orchestration
         items:
           - item:
             name: containerd
@@ -270,7 +175,7 @@ landscape:
             logo: tars-docker.svg
             crunchbase: https://www.crunchbase.com/organization/tars-foundation
       - subcategory:
-        name: Edge
+        name: Edge Computing
         items:
           - item:
             name: Akraino
@@ -320,6 +225,21 @@ landscape:
             repo_url: https://github.com/State-of-the-Edge/glossary
             logo: stateoftheedge.svg
             crunchbase: https://www.crunchbase.com/organization/lf-edge
+      - subcategory:
+        name: Networking
+        items:
+          - item:
+            name: DPDK
+            homepage_url: https://www.dpdk.org/
+            repo_url: https://github.com/DPDK/dpdk
+            logo: dpdk.svg
+            crunchbase: https://www.crunchbase.com/organization/dpdk
+          - item:
+            name: F-Stack
+            homepage_url: https://www.f-stack.org/
+            repo_url: https://github.com/F-Stack/f-stack
+            logo: f-stack.svg
+            crunchbase: https://www.crunchbase.com/organization/tencent
   - category:
     name: Data
     subcategories:
@@ -626,7 +546,7 @@ landscape:
             twitter: https://twitter.com/Ceph
             crunchbase: https://www.crunchbase.com/organization/ceph-foundation
   - category:
-    name: Platform
+    name: Microservice
     subcategories:
       - subcategory:
         name: Framework
@@ -815,7 +735,7 @@ landscape:
             logo: sumologic.svg
             crunchbase: https://www.crunchbase.com/organization/sumo-logic
       - subcategory:
-        name: Monitoring
+        name: Observability
         items:
           - item:
             name: AppDynamics
@@ -1428,32 +1348,56 @@ landscape:
             logo: tensorflow.svg
             crunchbase: https://www.crunchbase.com/organization/tensorflow
       - subcategory:
-        name: Others
+        name: Automotive
         items:
           - item:
-            name: TarsBenchmark
-            homepage_url: https://github.com/TarsCloud/TarsBenchmark
-            repo_url: https://github.com/TarsCloud/TarsBenchmark
-            logo: tars-benchmark.svg
-            crunchbase: https://www.crunchbase.com/organization/tars-foundation
+            name: Automotive
+            project: null
+            logo: automotive.svg
+            organization:
+              name: automotive
+            homepage_url: https://nextarch.io/
+            crunchbase: https://www.crunchbase.com/organization/nextarch-foundation
+      - subcategory:
+        name: Gaming
+        items:
           - item:
-            name: TarsJavaStart
-            homepage_url: https://github.com/TarsCloud/TarsJavaStart
-            repo_url: https://github.com/TarsCloud/TarsJavaStart
-            logo: tars-javastart.svg
-            crunchbase: https://www.crunchbase.com/organization/tars-foundation
+            name: Gaming
+            logo: gaming.svg
+            organization:
+              name: Gaming
+            homepage_url: https://nextarch.io/
+            crunchbase: https://www.crunchbase.com/organization/nextarch-foundation
+      - subcategory:
+        name: Healthcare
+        items:
           - item:
-            name: TarsJMeter
-            homepage_url: https://github.com/TarsCloud/TarsJMeter
-            repo_url: https://github.com/TarsCloud/TarsJMeter
-            logo: tars-jmeter.svg
-            crunchbase: https://www.crunchbase.com/organization/tars-foundation
+            name: Healthcare
+            logo: healthcare.svg
+            organization:
+              name: Healthcare
+            homepage_url: https://nextarch.io/
+            crunchbase: https://www.crunchbase.com/organization/nextarch-foundation
+      - subcategory:
+        name: Media & Entertainment
+        items:
           - item:
-            name: TarsTools
-            homepage_url: https://github.com/TarsCloud/TarsTools
-            repo_url: https://github.com/TarsCloud/TarsTools
-            logo: tars-jmeter.svg
-            crunchbase: https://www.crunchbase.com/organization/tars-foundation
+            name: Media & Entertainment
+            logo: media-entertainment.svg
+            organization:
+              name: Media and Entertainment
+            homepage_url: https://nextarch.io/
+            crunchbase: https://www.crunchbase.com/organization/nextarch-foundation
+      - subcategory:
+        name: Telecommunications
+        items:
+          - item:
+            name: Telecommunications
+            logo: telecommunications.svg
+            organization:
+              name: Telecommunications
+            homepage_url: https://nextarch.io/
+            crunchbase: https://www.crunchbase.com/organization/nextarch-foundation
   - category:
     name: NextArch Foundation Collaborator
     subcategories:
@@ -1579,3 +1523,14 @@ landscape:
             homepage_url: https://streamnative.io/
             logo: streamnative.svg
             crunchbase: https://www.crunchbase.com/organization/streamnative
+  - category:
+    name: Development
+    subcategories:
+      - subcategory:
+        name: Cloud Dev
+        items:
+          - item:
+            name: WeDa
+            homepage_url: https://cloud.tencent.com/product/weda
+            logo: weda.svg
+            crunchbase: https://www.crunchbase.com/organization/tencent

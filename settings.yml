@@ -98,7 +98,7 @@ big_picture:
         color: rgb(7,136,62)
         fit_width: true
       - type: HorizontalCategory
-        category: Platform
+        category: Microservice
         rows: 4
         width: 1340
         height: 148
