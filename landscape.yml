@@ -149,12 +149,6 @@ landscape:
             twitter: https://twitter.com/Docker
             crunchbase: https://www.crunchbase.com/organization/docker
           - item:
-            name: K8STARS
-            homepage_url: https://github.com/TarsCloud/K8STARS
-            repo_url: https://github.com/TarsCloud/K8STARS
-            logo: tars-docker.svg
-            crunchbase: https://www.crunchbase.com/organization/tars-foundation
-          - item:
             name: Kubernetes
             description: Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications
             homepage_url: https://kubernetes.io/
@@ -168,12 +162,6 @@ landscape:
             repo_url: https://github.com/kubernetes-retired/rktlet
             logo: rktlet.svg
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-          - item:
-            name: TarsDocker
-            homepage_url: https://github.com/TarsCloud/TarsDocker
-            repo_url: https://github.com/TarsCloud/TarsDocker
-            logo: tars-docker.svg
-            crunchbase: https://www.crunchbase.com/organization/tars-foundation
       - subcategory:
         name: Edge Computing
         items:
@@ -1292,12 +1280,6 @@ landscape:
             twitter: https://twitter.com/AccentureTech
             crunchbase: https://www.crunchbase.com/organization/accenture
           - item:
-            name: TarsGateway
-            homepage_url: https://github.com/TarsCloud/TarsGateway
-            repo_url: https://github.com/TarsCloud/TarsGateway
-            logo: tars-gateway.svg
-            crunchbase: https://www.crunchbase.com/organization/tars-foundation
-          - item:
             name: Tyk
             homepage_url: https://tyk.io/
             repo_url: https://github.com/TykTechnologies/tyk
@@ -1320,33 +1302,13 @@ landscape:
             homepage_url: https://www.aftership.com/
             logo: aftership.svg
             crunchbase: https://www.crunchbase.com/organization/aftership
-      - subcategory:
-        name: AI
-        items:
           - item:
-            name: Caffe
-            homepage_url: https://caffe.berkeleyvision.org/
-            repo_url: https://github.com/BVLC/caffe
-            logo: caffe.svg
-            crunchbase: https://www.crunchbase.com/organization/berkeley-artificial-intelligence-research
-          - item:
-            name: Keras
-            homepage_url: https://keras.io/
-            repo_url: https://github.com/keras-team/keras
-            logo: keras.svg
-            crunchbase: https://www.crunchbase.com/organization/keras
-          - item:
-            name: PyTorch
-            homepage_url: https://pytorch.org/
-            repo_url: https://github.com/pytorch/pytorch
-            logo: pytorch.svg
-            crunchbase: https://www.crunchbase.com/organization/pytorch
-          - item:
-            name: TensorFlow
-            homepage_url: https://pypi.org/project/tensorflow/
-            repo_url: https://github.com/tensorflow/tensorflow
-            logo: tensorflow.svg
-            crunchbase: https://www.crunchbase.com/organization/tensorflow
+            name: Retail
+            homepage_url: https://nextarch.io/
+            logo: retail.svg
+            crunchbase: https://www.crunchbase.com/organization/nextarch-foundation
+            organization:
+              name: Retail
       - subcategory:
         name: Automotive
         items:
