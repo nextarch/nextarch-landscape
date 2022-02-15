@@ -36,6 +36,9 @@ relation:
           big_picture_order: 1
           big_picture_label: LF NextArch
           big_picture_color: rgb(24,54,114)
+        - id: collaborativeproject
+          label: Collaborative Project
+          tag: Collaborative Project
     - id: company
       label: NextArch Foundation Collaborator
       tag: Company

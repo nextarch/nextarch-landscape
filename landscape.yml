@@ -92,6 +92,7 @@ landscape:
             homepage_url: https://www.arm.com/
             logo: arm.svg
             crunchbase: https://www.crunchbase.com/organization/arm
+            project: collaborativeproject
           - item:
             name: Intel
             homepage_url: https://www.intel.com/content/www/us/en/homepage.html
@@ -125,6 +126,7 @@ landscape:
             homepage_url: https://intl.cloud.tencent.com/products/tke
             logo: tencent-cloud.svg
             crunchbase: https://www.crunchbase.com/organization/tencent
+            project: collaborativeproject
       - subcategory:
         name: Containers & Orchestration
         items:
@@ -228,6 +230,7 @@ landscape:
             repo_url: https://github.com/F-Stack/f-stack
             logo: f-stack.svg
             crunchbase: https://www.crunchbase.com/organization/tencent
+            project: collaborativeproject
   - category:
     name: Data
     subcategories:
@@ -240,6 +243,7 @@ landscape:
             repo_url: https://github.com/tencent/dcache
             logo: DCache-Color.svg
             crunchbase: https://www.crunchbase.com/organization/tars-foundation
+            project: collaborativeproject
           - item:
             name: memcached
             homepage_url: https://memcached.org/
@@ -553,6 +557,7 @@ landscape:
             logo: tars-framework.svg
             twitter: https://twitter.com/tarscloud
             crunchbase: https://www.crunchbase.com/organization/tars-foundation
+            project: collaborativeproject
       - subcategory:
         name: Service Discovery
         items:
@@ -590,6 +595,7 @@ landscape:
             repo_url: https://github.com/tencent/tseer
             logo: Tseer-color.svg
             crunchbase: https://www.crunchbase.com/organization/tars-foundation
+            project: collaborativeproject
       - subcategory:
         name: Service Mesh
         items:
@@ -1224,6 +1230,7 @@ landscape:
             logo: apisix.svg
             twitter: https://twitter.com/apacheapisix
             crunchbase: https://www.crunchbase.com/organization/apache
+            project: collaborativeproject
           - item:
             name: APIOAK
             homepage_url: https://apioak.com/
@@ -1249,6 +1256,7 @@ landscape:
             repo_url: https://github.com/Kong/kong
             logo: kong.svg
             crunchbase: https://www.crunchbase.com/organization/konghq
+            project: collaborativeproject
           - item:
             name: KrakenD
             homepage_url: https://www.krakend.io/
@@ -1302,6 +1310,7 @@ landscape:
             homepage_url: https://www.aftership.com/
             logo: aftership.svg
             crunchbase: https://www.crunchbase.com/organization/aftership
+            project: collaborativeproject
           - item:
             name: Retail
             homepage_url: https://nextarch.io/
@@ -1309,12 +1318,13 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/nextarch-foundation
             organization:
               name: Retail
+            project: collaborativeproject
       - subcategory:
         name: Automotive
         items:
           - item:
             name: Automotive
-            project: null
+            project: collaborativeproject
             logo: automotive.svg
             organization:
               name: automotive
@@ -1330,6 +1340,7 @@ landscape:
               name: Gaming
             homepage_url: https://nextarch.io/
             crunchbase: https://www.crunchbase.com/organization/nextarch-foundation
+            project: collaborativeproject
       - subcategory:
         name: Healthcare
         items:
@@ -1340,6 +1351,7 @@ landscape:
               name: Healthcare
             homepage_url: https://nextarch.io/
             crunchbase: https://www.crunchbase.com/organization/nextarch-foundation
+            project: collaborativeproject
       - subcategory:
         name: Media & Entertainment
         items:
@@ -1350,6 +1362,7 @@ landscape:
               name: Media and Entertainment
             homepage_url: https://nextarch.io/
             crunchbase: https://www.crunchbase.com/organization/nextarch-foundation
+            project: collaborativeproject
       - subcategory:
         name: Telecommunications
         items:
@@ -1360,6 +1373,7 @@ landscape:
               name: Telecommunications
             homepage_url: https://nextarch.io/
             crunchbase: https://www.crunchbase.com/organization/nextarch-foundation
+            project: collaborativeproject
   - category:
     name: NextArch Foundation Collaborator
     subcategories:
@@ -1496,3 +1510,4 @@ landscape:
             homepage_url: https://cloud.tencent.com/product/weda
             logo: weda.svg
             crunchbase: https://www.crunchbase.com/organization/tencent
+            project: collaborativeproject
