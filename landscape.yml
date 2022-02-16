@@ -1526,6 +1526,28 @@ landscape:
             homepage_url: https://streamnative.io/
             logo: streamnative.svg
             crunchbase: https://www.crunchbase.com/organization/streamnative
+          - item:
+            name: CESI
+            homepage_url: http://www.cesi.cn/page/index.html
+            logo: CESI.svg
+            organization:
+              name: CESI
+          - item:
+            name: Mulan Community
+            homepage_url: https://portal.mulanos.cn/
+            logo: mulan.svg
+            organization:
+              name: Mulan Community
+          - item:
+            name: SmartX
+            homepage_url: https://www.smartx.com/
+            logo: SmartX.svg
+            crunchbase: https://www.crunchbase.com/organization/smartx
+          - item:
+            name: PengCheng Lab
+            homepage_url: http://www.szpclab.com/
+            logo: pcl.svg
+            crunchbase: https://www.crunchbase.com/organization/peng-cheng-laboratory
   - category:
     name: Development
     subcategories:
