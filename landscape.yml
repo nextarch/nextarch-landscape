@@ -215,6 +215,15 @@ landscape:
             repo_url: https://github.com/State-of-the-Edge/glossary
             logo: stateoftheedge.svg
             crunchbase: https://www.crunchbase.com/organization/lf-edge
+          - item:
+            name: YoMo
+            homepage_url: https://yomo.run
+            project: collaborativeproject
+            repo_url: https://github.com/yomorun/yomo
+            logo: allegro-networks-xile-logo.svg
+            twitter: https://twitter.com/yomohq
+            organization:
+              name: Allegro NetworksNextArchCollaborator
       - subcategory:
         name: Networking
         items:
@@ -287,6 +296,7 @@ landscape:
             logo: shardingsphere.svg
             twitter: https://twitter.com/ShardingSphere
             crunchbase: https://www.crunchbase.com/organization/apache
+            project: collaborativeproject
           - item:
             name: ArangoDB
             homepage_url: https://www.arangodb.com/
@@ -527,6 +537,14 @@ landscape:
             repo_url: https://github.com/elastic/elasticsearch
             logo: elasticsearch.svg
             crunchbase: https://www.crunchbase.com/organization/elasticsearch
+          - item:
+            name: PiFlow
+            homepage_url: http://piflow.mulanos.cn/
+            project: collaborativeproject
+            repo_url: https://github.com/cas-bigdatalab/piflow
+            logo: PiFlow.svg
+            organization:
+              name: CNIC
       - subcategory:
         name: File System
         items:
@@ -1363,6 +1381,15 @@ landscape:
             homepage_url: https://nextarch.io/
             crunchbase: https://www.crunchbase.com/organization/nextarch-foundation
             project: collaborativeproject
+          - item:
+            name: SRS
+            homepage_url: https://ossrs.net
+            project: collaborativeproject
+            repo_url: https://github.com/ossrs/srs
+            logo: srs.svg
+            twitter: https://twitter.com/srs_server
+            organization:
+              name: OSSRS
       - subcategory:
         name: Telecommunications
         items:
@@ -1511,3 +1538,18 @@ landscape:
             logo: weda.svg
             crunchbase: https://www.crunchbase.com/organization/tencent
             project: collaborativeproject
+          - item:
+            name: CloudBase Framework
+            homepage_url: https://cloudbase.net/framework.html
+            project: collaborativeproject
+            repo_url: https://github.com/Tencent/cloudbase-framework
+            logo: cloudbaseframework.svg
+            crunchbase: https://www.crunchbase.com/organization/tencent
+          - item:
+            name: Nocalhost
+            homepage_url: https://nocalhost.dev
+            project: collaborativeproject
+            repo_url: https://github.com/nocalhost/nocalhost
+            logo: nocalhost.svg
+            twitter: https://twitter.com/Coding_net
+            crunchbase: https://www.crunchbase.com/organization/coding-2
