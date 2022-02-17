@@ -531,6 +531,7 @@ landscape:
             logo: pulsar.svg
             twitter: https://twitter.com/apache_pulsar
             crunchbase: https://www.crunchbase.com/organization/apache
+            project: collaborativeproject
           - item:
             name: Apache Spark
             homepage_url: https://spark.apache.org/
