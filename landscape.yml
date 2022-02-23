@@ -375,6 +375,12 @@ landscape:
             logo: PiFlow.svg
             organization:
               name: CNIC
+         - item:
+            name: Tapdata iDaaS
+            homepage_url: https://tapdata.net
+            project: idaas
+            repo_url: https://github.com/tapdata/idaas
+            logo: tapdata.svg
       - subcategory:
         name: File System
         items:
