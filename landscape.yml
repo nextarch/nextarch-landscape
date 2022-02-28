@@ -323,6 +323,14 @@ landscape:
             logo: vitess.svg
             twitter: https://twitter.com/vitessio
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+          - item:
+            name: OpenMLDB
+            description: OpenMLDB is an open-source machine learning database that provides a full-stack FeatureOps solution for production.
+            homepage_url: https://openmldb.ai/en/
+            project: collaborativeproject
+            repo_url: https://github.com/4paradigm/OpenMLDB
+            logo: OpenMLDB.svg
+            crunchbase: https://www.crunchbase.com/organization/4paradigm
       - subcategory:
         name: Big data
         items:
@@ -375,6 +383,24 @@ landscape:
             logo: PiFlow.svg
             organization:
               name: CNIC
+          - item:
+            name: Tapdata iDaaS
+            homepage_url: https://tapdata.net
+            project: collaborativeproject
+            repo_url: https://github.com/tapdata/idaas
+            logo: Tapdata.svg
+            organization:
+              name: tapdata
+          - item:
+            name: PandaDB
+            description: |
+              PandaDB is a graph database focused on heterogeneous data management and AI-based semantic relational analysis.
+            homepage_url: https://github.com/grapheco
+            project: collaborativeproject
+            repo_url: https://github.com/grapheco/pandadb-v0.3
+            logo: pandadb.svg
+            organization:
+              name: grapheco
       - subcategory:
         name: File System
         items:
