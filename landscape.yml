@@ -38,6 +38,12 @@ landscape:
             repo_url: https://github.com/travis-ci/travis-web
             logo: travis-ci.svg
             crunchbase: https://www.crunchbase.com/organization/travis-ci
+          - item:
+            name: Apache Maven
+            homepage_url: https://maven.apache.org/ref/current
+            repo_url: https://github.com/apache/maven
+            logo: maven.svg
+            crunchbase: https://www.crunchbase.com/organization/apache-maven
   - category:
     name: Infrastructure
     subcategories:
@@ -60,6 +66,12 @@ landscape:
             homepage_url: https://www.intel.com/content/www/us/en/homepage.html
             logo: intel.svg
             crunchbase: https://www.crunchbase.com/organization/intel
+          - item:
+            name: RISC-V
+            homepage_url: https://riscv.org/
+            repo_url: https://github.com/riscv/riscv-isa-manual
+            logo: riscv.svg
+            crunchbase: https://www.crunchbase.com/organization/risc-v
       - subcategory:
         name: Cloud
         items:
@@ -209,6 +221,66 @@ landscape:
             logo: f-stack.svg
             crunchbase: https://www.crunchbase.com/organization/tencent
             project: collaborativeproject
+          - item:
+            name: Tungsten Fabric
+            homepage_url: https://tungsten.io/
+            repo_url: https://github.com/tungstenfabric/tf-controller
+            logo: TungstenFabric.svg
+            crunchbase: https://www.crunchbase.com/organization/tungsten-fabric
+          - item:
+            name: OpenVPN
+            homepage_url: http://community.openvpn.net/
+            repo_url: https://github.com/OpenVPN/openvpn
+            logo: openvpn.svg
+            crunchbase: https://www.crunchbase.com/organization/openvpn
+          - item:
+            name: OVN
+            homepage_url: https://www.ovn.org/
+            repo_url: https://github.com/ovn-org/ovn
+            logo: ovn.svg
+            organization:
+              name: ovn
+          - item:
+            name: OVS
+            homepage_url: http://www.openvswitch.org/
+            repo_url: https://github.com/openvswitch/ovs
+            logo: vswitch.svg
+            crunchbase: https://www.crunchbase.com/organization/open-vswitch
+      - subcategory:
+        name: Storage
+        items:
+          - item:
+            name: Ceph
+            homepage_url: https://ceph.io/
+            repo_url: https://github.com/ceph/ceph
+            logo: ceph.svg
+            twitter: https://twitter.com/Ceph
+            crunchbase: https://www.crunchbase.com/organization/ceph-foundation
+          - item:
+            name: glusterfs
+            homepage_url: https://www.gluster.org/
+            repo_url: https://github.com/gluster/glusterfs
+            logo: glusterfs.svg
+            crunchbase: https://www.crunchbase.com/organization/gluster
+          - item:
+            name: MINIO
+            homepage_url: https://min.io/
+            repo_url: https://github.com/minio/minio
+            logo: minio.svg
+            crunchbase: https://www.crunchbase.com/organization/minio-inc
+          - item:
+            name: JuiceFS
+            homepage_url: https://juicefs.com/
+            repo_url: https://github.com/juicedata/juicefs
+            logo: juicefs.svg
+            crunchbase: https://www.crunchbase.com/organization/juicefs
+          - item:
+            name: Curve
+            homepage_url: https://www.opencurve.io/
+            repo_url: https://github.com/opencurve/curve
+            logo: curve.svg
+            organization:
+              name: curve
   - category:
     name: Data
     subcategories:
@@ -331,6 +403,16 @@ landscape:
             repo_url: https://github.com/4paradigm/OpenMLDB
             logo: OpenMLDB.svg
             crunchbase: https://www.crunchbase.com/organization/4paradigm
+          - item:
+            name: PandaDB
+            description: |
+              PandaDB is a graph database focused on heterogeneous data management and AI-based semantic relational analysis.
+            homepage_url: https://github.com/grapheco
+            project: collaborativeproject
+            repo_url: https://github.com/grapheco/pandadb-v0.3
+            logo: pandadb.svg
+            organization:
+              name: grapheco
       - subcategory:
         name: Big data
         items:
@@ -370,12 +452,6 @@ landscape:
             twitter: https://twitter.com/apachespark
             crunchbase: https://www.crunchbase.com/organization/apache
           - item:
-            name: Elasticsearch
-            homepage_url: https://www.elastic.co/elasticsearch/
-            repo_url: https://github.com/elastic/elasticsearch
-            logo: elasticsearch.svg
-            crunchbase: https://www.crunchbase.com/organization/elasticsearch
-          - item:
             name: PiFlow
             homepage_url: http://piflow.mulanos.cn/
             project: collaborativeproject
@@ -392,28 +468,60 @@ landscape:
             organization:
               name: tapdata
           - item:
-            name: PandaDB
-            description: |
-              PandaDB is a graph database focused on heterogeneous data management and AI-based semantic relational analysis.
-            homepage_url: https://github.com/grapheco
-            project: collaborativeproject
-            repo_url: https://github.com/grapheco/pandadb-v0.3
-            logo: pandadb.svg
-            organization:
-              name: grapheco
-      - subcategory:
-        name: File System
-        items:
+            name: Apache Kylin
+            homepage_url: https://kylin.apache.org/
+            repo_url: https://github.com/apache/kylin
+            logo: kylin.svg
+            crunchbase: https://www.crunchbase.com/organization/kylin
           - item:
-            name: Ceph
-            homepage_url: https://ceph.io/
-            repo_url: https://github.com/ceph/ceph
-            logo: ceph.svg
-            twitter: https://twitter.com/Ceph
-            crunchbase: https://www.crunchbase.com/organization/ceph-foundation
+            name: Apache Flink
+            homepage_url: https://flink.apache.org/
+            repo_url: https://github.com/apache/flink
+            logo: flink.svg
+            crunchbase: https://www.crunchbase.com/organization/apache
   - category:
     name: Microservice
     subcategories:
+      - subcategory:
+        name: Log
+        items:
+          - item:
+            name: Elasticsearch
+            homepage_url: https://www.elastic.co/elasticsearch/
+            repo_url: https://github.com/elastic/elasticsearch
+            logo: elasticsearch.svg
+            crunchbase: https://www.crunchbase.com/organization/elasticsearch
+          - item:
+            name: Fluentd
+            homepage_url: https://www.fluentd.org/
+            repo_url: https://github.com/fluent/fluentd
+            logo: fluentd.svg
+            twitter: https://twitter.com/fluentd
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+          - item:
+            name: Grafana Loki
+            homepage_url: https://grafana.com/oss/loki
+            repo_url: https://github.com/grafana/loki
+            logo: grafana-loki.svg
+            crunchbase: https://www.crunchbase.com/organization/raintank
+          - item:
+            name: Logstash
+            homepage_url: https://www.elastic.co/products/logstash
+            repo_url: https://github.com/elastic/logstash
+            logo: logstash.svg
+            crunchbase: https://www.crunchbase.com/organization/logstash
+          - item:
+            name: Kibana
+            homepage_url: https://www.elastic.co/products/kibana
+            repo_url: https://github.com/elastic/kibana
+            logo: kibana.svg
+            crunchbase: https://www.crunchbase.com/organization/elasticsearch
+          - item:
+            name: Beats
+            homepage_url: https://www.elastic.co/products/beats
+            repo_url: https://github.com/elastic/beats
+            logo: filebeat.svg
+            crunchbase: https://www.crunchbase.com/organization/elasticsearch
       - subcategory:
         name: Framework
         items:
@@ -500,22 +608,6 @@ landscape:
             logo: netflix-oss-zuul.svg
             twitter: https://twitter.com/netflixoss
             crunchbase: https://www.crunchbase.com/organization/netflix
-      - subcategory:
-        name: Log
-        items:
-          - item:
-            name: Fluentd
-            homepage_url: https://www.fluentd.org/
-            repo_url: https://github.com/fluent/fluentd
-            logo: fluentd.svg
-            twitter: https://twitter.com/fluentd
-            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
-          - item:
-            name: Grafana Loki
-            homepage_url: https://grafana.com/oss/loki
-            repo_url: https://github.com/grafana/loki
-            logo: grafana-loki.svg
-            crunchbase: https://www.crunchbase.com/organization/raintank
       - subcategory:
         name: Observability
         items:
@@ -696,6 +788,12 @@ landscape:
             homepage_url: https://nextarch.io/
             crunchbase: https://www.crunchbase.com/organization/nextarch-foundation
             project: collaborativeproject
+          - item:
+            name: Unity
+            homepage_url: https://unity.com/
+            repo_url: https://github.com/Unity-Technologies/Graphics
+            logo: unity.svg
+            crunchbase: https://www.crunchbase.com/organization/unity-technologies
       - subcategory:
         name: Healthcare
         items:
@@ -707,6 +805,30 @@ landscape:
             homepage_url: https://nextarch.io/
             crunchbase: https://www.crunchbase.com/organization/nextarch-foundation
             project: collaborativeproject
+          - item:
+            name: MedCreds
+            homepage_url: https://www.proofmarket.io/medcreds
+            repo_url: https://github.com/LFPH-Medcreds/medcreds-api
+            logo: medcreds.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-public-health
+          - item:
+            name: Cardea
+            homepage_url: https://www.cardea.app/
+            repo_url: https://github.com/thecardeaproject/cardea
+            logo: cardea.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-public-health
+          - item:
+            name: COVID Green
+            homepage_url: https://www.lfph.io/
+            repo_url: https://github.com/covidgreen/covid-green-app
+            logo: covidgreen.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-public-health
+          - item:
+            name: COVID Shield
+            homepage_url: https://www.covidshield.app/
+            repo_url: https://github.com/CovidShield/mobile
+            logo: covidshield.svg
+            crunchbase: https://www.crunchbase.com/organization/lf-public-health
       - subcategory:
         name: Media & Entertainment
         items:
@@ -727,6 +849,34 @@ landscape:
             twitter: https://twitter.com/srs_server
             organization:
               name: OSSRS
+          - item:
+            name: FFmpeg
+            homepage_url: https://ffmpeg.org/
+            repo_url: https://github.com/FFmpeg/FFmpeg
+            logo: ffmpeg.svg
+            crunchbase: https://www.crunchbase.com/organization/ffmpeg
+            twitter: https://twitter.com/FFmpeg
+            organization:
+              name: ffmpeg
+          - item:
+            name: WebRTC
+            homepage_url: https://webrtc.org/
+            repo_url: https://github.com/webrtc/samples
+            logo: webrtc.svg
+            crunchbase: https://www.crunchbase.com/organization/webrtc
+          - item:
+            name: MediaInfo
+            homepage_url: https://mediaarea.net/
+            repo_url: https://github.com/MediaArea/MediaInfo
+            logo: mediainfo.svg
+            organization:
+              name: MediaInfo
+          - item:
+            name: Blender
+            homepage_url: https://www.blender.org/
+            repo_url: https://github.com/blender/blender
+            logo: blender.svg
+            crunchbase: https://www.crunchbase.com/organization/blender-org
       - subcategory:
         name: Telecommunications
         items:
