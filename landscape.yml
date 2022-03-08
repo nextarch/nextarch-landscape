@@ -44,6 +44,13 @@ landscape:
             repo_url: https://github.com/apache/maven
             logo: maven.svg
             crunchbase: https://www.crunchbase.com/organization/apache-maven
+          - item:
+            name: Jianmu
+            homepage_url: https://jianmu.dev/
+            repo_url: https://github.com/jianmu-dev/jianmu-ci-server
+            logo: jianmu.svg
+            organization:
+              name: Jianmu
   - category:
     name: Infrastructure
     subcategories:
@@ -281,6 +288,12 @@ landscape:
             logo: curve.svg
             organization:
               name: curve
+          - item:
+            name: Soda
+            homepage_url: https://sodafoundation.io/
+            repo_url: https://github.com/sodafoundation/soda
+            logo: soda.svg
+            crunchbase: https://www.crunchbase.com/organization/opensds
   - category:
     name: Data
     subcategories:
